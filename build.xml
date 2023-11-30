@@ -40,11 +40,5 @@
             <classes dir="build/classes"/>
         </war>
     </target>
-    <target name="compile" depends="clean">
-        <mkdir dir="${build.dir}" />
-        <!-- Set includeantruntime to false to suppress the warning -->
-        <javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="false"/>
-    </target>
-
 </project>
 
